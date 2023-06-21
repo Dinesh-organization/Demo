@@ -1,0 +1,6 @@
+{
+  "name": "Node.js Sample",
+  "description": "A Node.js app using Express 4",
+  "repository": "https://github.com/Nagendra2140/node_cicd.git",
+  "keywords": ["node", "express", "static"]
+}
