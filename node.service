@@ -1,0 +1,11 @@
+[Unit]
+Description=Node Application
+
+[Service]
+User=no user
+WorkingDirectory=/var/www/html/
+ExecStart=/usr/bin/node /var/www/html/cms.js
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
